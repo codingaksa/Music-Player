@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+
+  <body>
+    <!-- Album Cover Start -->
+    <div class="album-cover">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/Playlist1.jpg" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=SIoWZHjVLTw&ab_channel=alisoy900"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Judas_Playlist.jpg" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=tezX5_H4CDw&list=RDDuIoGWn6Bn8&index=3&ab_channel=JudasPriestVEVO"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Rammstein_Playlist.jpg" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=KsNFVUVWTS0&ab_channel=%F0%9D%95%B8%F0%9D%96%9A%F0%9D%96%98%F0%9D%96%8E%F0%9D%96%88%F0%9D%95%B3%F0%9D%96%9A%F0%9D%96%87"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/SleepWalker_Playlist.jpg" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=B1XM31h8hbc&list=RDB1XM31h8hbc&start_radio=1&ab_channel=zugor"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Daft_Punk_Playlist.jpg" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=cyISMfEJYEQ&list=RDB1XM31h8hbc&index=9&ab_channel=HunterWilhelm"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Doom_Playlist.jpg" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=vBioZdWX-dc&ab_channel=Catch-23"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Deftones_Playlist.jpg" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=PIF4So6xcU8&ab_channel=Deftones-Topic"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Album Cover End -->
+    <!-- Music Player Start -->
+    <div class="music-player">
+      <h1 class="song-title">Title</h1>
+      <p class="artist-name">Song Name</p>
+
+      <audio id="song">
+        <source src="sound/Akiaura - Sleepwalker X Slowed.mp3" type="audio/mpeg" />
+      </audio>
+      <div class="slider_container">
+        <div class="current-time">00:00</div>
+        <input type="range" min="1" max="100" value="0" class="seek-slider" id="progress"/>
+      </div>
+      <div class="slider_container">
+        <i class="fa fa-volume-down"></i>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="99"
+          class="volume-slider" id="progress"
+        />
+        <i class="fa fa-volume-up"></i>
+      </div>
+      <div class="controls">
+        <button class="random-track">
+            <i class="fas fa-random" title="random"></i>
+        </button>
+        <button class="backward">
+          <i class="fa-solid fa-backward"></i>
+        </button>
+        <button class="play-pause-btn">
+          <i class="fa-solid fa-play" id="controlIcon"></i>
+        </button>
+        <button class="forward">
+          <i class="fa-solid fa-forward"></i>
+        </button>
+        <button class="repeat-track">
+            <i class="fa fa-repeat title="repeat"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Music Player End -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
