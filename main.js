@@ -54,6 +54,12 @@ const songs = [
     source: 'sound/My Own Summer.mp3',
     duration: 208, // Şarkının süresi (saniye cinsinden)
   },
+  {
+    title: 'Painkiller',
+    name: 'Judas Priest',
+    source: 'sound/Judas Priest - Painkiller (Official Lyric Video).mp3',
+    duration: 208, // Şarkının süresi (saniye cinsinden)
+  },
 ];
 
 //! Updating song info
@@ -189,5 +195,6 @@ var swiper = new Swiper('.swiper', {
   navigation: {
     nextEl: '.forward',
     prevEl: '.backward',
+    randomEl: '.random-track',
   },
 });

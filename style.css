@@ -19,8 +19,9 @@ body {
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/8727c9b1-be21-4932-a221-4257b59a74dd);
+  background: url(img/5451540.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   animation: slidein 120s forwards infinite alternate;
@@ -122,6 +123,22 @@ body {
 }
 
 /* Music Player Progress */
+.current-time {
+  position: relative;
+  right: 15px;
+}
+
+.slider_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+i.fa.fa-volume-down,
+i.fa.fa-volume-up {
+  position: relative;
+  padding: 10px;
+}
 
 #progress {
   appearance: none;
