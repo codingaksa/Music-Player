@@ -9,7 +9,7 @@
 ### Screenshot
 
 
-![Ekran görüntüsü 2024-03-01 153555](https://github.com/codingaksa/Music-Player/assets/146668435/fd6263c5-fff2-4776-a6fa-b689fa637e7c)
+![Ekran görüntüsü 2024-03-01 153555](https://github.com/codingaksa/Music-Player/assets/146668435/6b95d127-e4fe-4e0f-a3e7-a9506000d051)
 
 
 ### Useful Resources
