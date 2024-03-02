@@ -7,7 +7,7 @@
 
 ### Reference
 
-I would like to thank ECEM GOKDOGAN for allowing me to work on the project.
+Endless thanks to Ecem Gokdogan for giving me the opportunity to work on the project.
 - Github - [@ecemgo](https://github.com/ecemgo)
 
 
