@@ -21,10 +21,4 @@ I would like to thank ECEM GOKDOGAN for allowing me to work on the project.
 
 - [Swiper JS](https://swiperjs.com) - slider
 
-### Contact Me
-
-- Github - [@codingaksa]([https://github.com/ecemgo](https://github.com/codingaksa)https://github.com/codingaksa)
-- YouTube - [@codingaksa]([https://www.youtube.com/channel/UCktkPv17cw27PaFGcnZa_aQ](https://www.youtube.com/channel/UCbJvuvc2o4qTwHZFw1_jBMA)https://www.youtube.com/channel/UCbJvuvc2o4qTwHZFw1_jBMA)
--  İnstagram - [@furkn.aksa]([https://github.com/ecemgo](https://github.com/codingaksa)https://github.com/codingaksa](https://www.instagram.com/furkn.aksa/)https://www.instagram.com/furkn.aksa/)
-
 
